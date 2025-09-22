@@ -1,2 +1,110 @@
-# AZIZ-COULIBALY
-Portofolio Business analyst 
+# Aziz Ivan Gerard COULIBALY  
+
+**Data Analyst | Business Analyst | Retail & Luxury Strategy**  
+Allier stratégie, expérience terrain et analyse de données pour transformer les chiffres en leviers de décision.  
+
+---
+
+## À propos de moi  
+Issu d’un parcours en stratégie d’entreprise (HEC Abidjan) et en marketing & management du luxe (ESGLUXE Paris), j’ai construit mon expertise sur le terrain (Baccarat, From Future) avant de me spécialiser dans l’analyse de données appliquée au commerce et à la performance retail.  
+
+La conversion vers la data s’est imposée naturellement : comprendre les clients, piloter la performance et proposer des solutions concrètes nécessitent des outils analytiques puissants.  
+Ce chemin m’a amené à maîtriser Excel avancé (TOSA), Power Query, Power Pivot, DAX, Power BI, ainsi que des notions de SQL.  
+
+Mon portfolio GitHub illustre non seulement mes compétences techniques, mais aussi ma pédagogie et ma capacité à apprendre vite et appliquer sur des cas concrets.  
+
+---
+
+## Projets : Optimisation d’un reporting commercial avec Excel, Power Query & Power BI   
+un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage, l'analyse et la visualisation des indicateurs clés de performances.
+
+### Problème rencontré 
+- Données dispersées sur plusieurs feuille et dans plusieurs dossiers
+- Pas de Formatage des colonnes (dates, CA HT, ventes, Articles,  passages, Qte Remise, Remise HT, Qte Détaxe, Détaxe HT, Qte VAD, VAD ht, full prices, Qte Parfum, Parfum Ht, QteDiversificatio, Diversification HT)
+- Pas de mise en forme conditionnel relative au weekend
+- Pas de suivi dynamique d’une année à l’autre
+- Calcul manuel des indicateurs : Panier moyen, Detaxe/CA, VAD/CA, Catégorie de produit (Full price, Parfum, Diversification)/CA par semaine/Mois/Année
+  
+  ---
+  
+  ### Étapes de traitement 
+ **Power Query**  
+- Nettoyage, homogénéisation et formatage des colonnes
+- Fusion des requêtes multi-mois : les classeurs possèdent 12 feuilles mensuelles
+- Création d’un modèle anticipant les futures années : production d’un fichier Excel optimisé avec des tableaux permettant le calcul automatique des indicateurs,  
+  ajout de nouvelles fonctionnalités (mise en forme conditionnelle des week-ends, filtre par semaine),  
+  et anticipation des années à venir jusqu’en 2030  
+- Normalisation des formats (dates, montants, devises)
+- Fusion des requêtes multi-année : après création et transformation des classeurs annuels,je procède à la fusion et consolidation des données via l’option *Créer uniquement la connexion*  
+  pour obtenir une table unique centralisant toutes les ventes, facilitant ainsi les calculs et l’application des mesures DAX
+
+  **Power BI**  
+- Modélisation relationnelle (tables faits/dimensions)  
+- Création d’une table calendrier (Date Table)  :
+  `CALENDRIER =
+ADDCOLUMNS (
+    CALENDAR (DATE (2019, 01, 01), DATE (2025, 12, 31)),
+    "ANNEE", YEAR ( [Date] ),
+    "SEMESTRE", IF (MONTH ( [Date] ) <= 6, "S1", "S2" )`,
+- Mesures DAX :  
+  - `CA = SUM(Donnée_vente[CAHT])`  
+  - `CA N-1 = CALCULATE([CA], SAMEPERIODLASTYEAR(Calendar[Date]))` 
+  - `Ecart = divide([CA] - [CA N-1],[CA N-1])`
+  - `Panier moyen = divide([CA],sum(donnée_vente[ventes]))`
+- Filtres dynamiques (année, mois) synchronisation des filtre, Page1,2,3 
+- Visualisations : histogrammes combiné,  donut chart, Cartes 123, matrice, mise en forme conditionnel
+   
+#### Résultats quantitatifs  
+- Réduction du temps de rapport manuel de 1h30 à 20 minutes automatisées (gain de productivité de 78%)
+- Fiabilité des données : 98%
+- Adoption de l’outil par les équipes de ventes / manager au quotidien et lors des rapports mensuels à la hiérarchie
+
+
+#### Résultats qualitatifs   
+- Visualisations intuitives et interactive permettant à des non-techniciens de comprendre les performances en un coup d’œil 
+- Renforcement de la confiance du manager dans les données utilisées au quotidien
+- Suivi clair des écarts année N / N-1 ainsi que des indicateurs N/N-1
+
+#### Résultats personnels  
+- Acquisition de compétences clés en **Excel, Power Query avancé, PowerBI, DAX et modélisation relationnelle**  
+- Développement d’une pédagogie pour vulgariser la donnée auprès d’équipes non techniques  
+- Capacité à mener un projet complet, de l'observation terrain à un outil exploitable et adopté  
+- Démonstration d’une capacité d'adaptation et d’apprentissage rapide 
+- Amélioration de ma rigueur analytique et de ma capacité à transformer les chiffres en recommandations stratégiques
+- Résilience face aux difficultés techniques par la recherche et l'expérimentation
+
+
+
+[Voir un aperçu du dashboard](#docs/screenshot.png)  
+
+---
+
+## Compétences techniques  
+- Analyse et visualisation : Excel Avancé (TOSA), Power Query, Power Pivot, DAX, Power BI  
+- Gestion commerciale : SAP BO, Generix  
+- Langages et data : notions SQL, DAX, modélisation relationnelle  
+- Outils : Pack Office, Suite Google  
+
+
+
+---
+
+## Ce qui me différencie  
+
+Je me distingue par ma capacité à apprendre rapidement et à appliquer mes compétences sur des projets concrets.  
+Mon parcours combine une **vision 360°** (retail, stratégie, data) et une **pédagogie**, qui me permet d’expliquer des problématiques complexes de façon simple et accessible.  
+
+Chaque projet est mené jusqu’au bout, avec des **livrables concrets**.  
+Mon **esprit critique** me pousse à identifier les faiblesses des systèmes en place et à initier, à titre personnel, des solutions nouvelles.  
+C’est pour moi une manière d’être **force de proposition**, de contribuer à l’amélioration de mon environnement de travail et de m’auto-challenger en permanence. 
+Enfin, ma **curiosité et mon esprit d’investigation** me permettent de surmonter les obstacles techniques grâce à la recherche, à l’expérimentation et à la débrouillardise.   
+
+
+---
+
+## CV et contact  
+- [Mon CV (PDF)](../CV%20aziz%20Coulibaly.pdf)  
+- Email : [Azizivan2000@gmail.com](mailto:Azizivan2000@gmail.com)  
+- Localisation : Île-de-France  
+- LinkedIn : https://www.linkedin.com/in/coulibaly-aziz/
+
