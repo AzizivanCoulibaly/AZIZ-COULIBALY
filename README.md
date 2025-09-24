@@ -80,7 +80,7 @@ un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage,
   ##### Dashboard final  
 ![Dashboard final](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/b06d65daba868a85223704908908beed4d3eb5e0/Images/Capture%20Dashboard%20P1.JPG) 
 ![Dashboard final](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/36295d94e48934320758ba06b3ae60db067ceb8c/Images/Capture%20Dashboard%20Analyse%20comparative.JPG) 
-![Dashboard final](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/b06d65daba868a85223704908908beed4d3eb5e0/Images/Capture%20Dashboard%20P1.JPG) 
+![Dashboard final](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/10462382f33063e67289a2821881c66f7b55cb47/Images/Dashboard%20Analyse%20comparative%202.JPG) 
 
    ---
   
@@ -106,8 +106,6 @@ un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage,
 - Amélioration de ma rigueur analytique et de ma capacité à transformer les chiffres en recommandations stratégiques
 - Résilience face aux difficultés techniques par la recherche et l'expérimentation
 
-
-[Voir un aperçu du dashboard](#docs/screenshot.png)  
 
 ---
 
@@ -138,5 +136,5 @@ Enfin, ma **curiosité et mon esprit d’investigation** me permettent de surmon
 - [Mon CV (PDF)](../CV%20aziz%20Coulibaly.pdf)  
 - Email : [Azizivan2000@gmail.com](mailto:Azizivan2000@gmail.com)  
 - Localisation : Île-de-France  
-- LinkedIn : https://www.linkedin.com/in/coulibaly-aziz/
+- LinkedIn : [Mon profil LinkedIn](https://www.linkedin.com/in/coulibaly-aziz/)
 
