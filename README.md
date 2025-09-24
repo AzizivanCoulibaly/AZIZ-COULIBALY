@@ -72,8 +72,8 @@ un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage,
   - `CA N-1 = CALCULATE([CA], SAMEPERIODLASTYEAR(Calendar[Date]))` 
   - `Ecart = divide([CA] - [CA N-1],[CA N-1])`
   - `Panier moyen = divide([CA],sum(donnée_vente[ventes]))`
-    ##### Table calendrier
- ![Modélisation des donnée](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/bda5ddf721967d7f1d914379c57477efaae6d2ce/Images/Mode%CC%81lisation%20des%20donne%CC%81es.JPG) 
+    ##### Mésures Calculées
+ ![Mesures calculées](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/421cfade86bb3e96137bc9c5747c3a7eaea63c9f/Images/Capture%20mesures%20calcule%CC%81es.JPG) 
  
 - Filtres dynamiques (année, mois) synchronisation des filtre, Page1,2,3 
 - Visualisations : histogrammes combiné,  donut chart, Cartes 123, matrice, mise en forme conditionnel
