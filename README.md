@@ -18,7 +18,7 @@ Mon portfolio GitHub illustre non seulement mes compétences techniques, mais au
 ## Projets : Optimisation d’un reporting commercial avec Excel, Power Query & Power BI   
 un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage, l'analyse et la visualisation des indicateurs clés de performances.
 ### Données brutes  
-![Données brutes](Images/Capture_Donnée à nettoyer.JPG)  
+![Données brutes](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/5bd970744b8b89af5dc5cf5ed8c22d68de102cf4/Images/Capture%20Donne%CC%81e%20a%CC%80%20nettoyer.JPG)  
 
 ### Données nettoyées  
 ![Données nettoyées](Optimisation%20du%20reporting%20Baccarat/images/donnees_nettoyees.png)  
