@@ -78,7 +78,9 @@ un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage,
 - Filtres dynamiques (année, mois) synchronisation des filtre, Page1,2,3 
 - Visualisations : histogrammes combiné,  donut chart, Cartes 123, matrice, mise en forme conditionnel
   ##### Dashboard final  
-![Dashboard final](Optimisation%20du%20reporting%20Baccarat/images/dashboard_final.png) 
+![Dashboard final](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/b06d65daba868a85223704908908beed4d3eb5e0/Images/Capture%20Dashboard%20P1.JPG) 
+![Dashboard final](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/b06d65daba868a85223704908908beed4d3eb5e0/Images/Capture%20Dashboard%20P1.JPG) 
+![Dashboard final](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/b06d65daba868a85223704908908beed4d3eb5e0/Images/Capture%20Dashboard%20P1.JPG) 
 
    ---
   
