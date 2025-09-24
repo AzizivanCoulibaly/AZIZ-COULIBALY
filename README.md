@@ -35,7 +35,7 @@ un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage,
 - Nettoyage, homogénéisation et formatage des colonnes
   #### Données nettoyées  
 ![Données nettoyées](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/f549ca6f097c08d514bdde162c7ac3a5cc0a4ffb/Images/Power%20query%20nettoyage.JPG) 
-- Fusion des requêtes multi-mois : les classeurs possèdent 12 feuilles mensuelles
+- Fusion des requêtes multi-mois : les classeurs possèdent 12 feuilles mensuelles. Après la fusion, le fichier obtenu est renommé "Données_ventesYYYY" charger en tableau et rangée avec les autres années.
   ### Fuision des requêtes multi-mois (2024, 2025, 2026, 2027, 2028, 2029, 2030)
 ![Fusion des requêtes multi-mois](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/99fd1f30b7feaaf1c4230377adb4a8ad338d57e7/Images/Capture%20fusion%20multi%20mois%202024.JPG)  
 - Création d’un modèle anticipant les futures années : production d’un fichier Excel optimisé avec des tableaux permettant le calcul automatique des indicateurs,  
@@ -46,16 +46,17 @@ un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage,
 - Normalisation des formats (dates, montants, devises)
 
   **Power BI**
-  - Fusion des requêtes multi-année : après création, transformation et fusion multi-mois des classeurs annuels,je procède à la fusion multi-année et consolidation des données
+  - Fusion des requêtes multi-année : après création, transformation et fusion multi-mois des classeurs annuels,je procède à la fusion multi-année des fichiers "Donnée_ventesYYYY"
   pour obtenir une table de faits unique centralisant toutes les ventes passées et futures 2024-2030, facilitant ainsi les calculs et l’application des mesures DAX
   ### Fusion multi-année 
-![Fusion multi-année](Optimisation%20du%20reporting%20Baccarat/images/dashboard_final.png) 
+![Fusion multi-année](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/926448afcf6b1af7960da6077ce54d724682ca9a/Images/Capture%20Fusion%20multi%20anne%CC%81e.JPG) 
 - Création d’une table calendrier (Date Table) afin de piloter le filtrage des données de ventes:
   `CALENDRIER =
 ADDCOLUMNS (
     CALENDAR (DATE (2019, 01, 01), DATE (2025, 12, 31)),
     "ANNEE", YEAR ( [Date] ),
     "SEMESTRE", IF (MONTH ( [Date] ) <= 6, "S1", "S2" )`,
+  ![Table calendrier](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/926448afcf6b1af7960da6077ce54d724682ca9a/Images/Capture%20Fusion%20multi%20anne%CC%81e.JPG) 
 - Modélisation relationnelle (tables faits : données de ventes/dimensions : table date)  
 - Mesures DAX :  
   - `CA = SUM(Donnée_vente[CAHT])`  
