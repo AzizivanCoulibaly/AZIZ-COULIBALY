@@ -64,7 +64,7 @@ ADDCOLUMNS (
   ![Table calendrier](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/934c277b09b2ed91d9f42bf637d1ebb11637d499/Images/Cre%CC%81ation%20table%20date.JPG)
   
 - Modélisation des données de mise en relation : Dans notre cas la table de fait est la table regroupant toutes les données de ventes et la table de dimensions est la table date préalablement créé
-   ##### Table calendrier
+   ##### Modèle de donnée
     ![Modélisation des donnée](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/bda5ddf721967d7f1d914379c57477efaae6d2ce/Images/Mode%CC%81lisation%20des%20donne%CC%81es.JPG)
   
 - Mesures DAX :  
