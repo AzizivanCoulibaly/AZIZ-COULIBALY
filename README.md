@@ -20,8 +20,7 @@ un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage,
 ### Données brutes  
 ![Données brutes](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/5bd970744b8b89af5dc5cf5ed8c22d68de102cf4/Images/Capture%20Donne%CC%81e%20a%CC%80%20nettoyer.JPG)  
 
-### Données nettoyées  
-![Données nettoyées](Optimisation%20du%20reporting%20Baccarat/images/donnees_nettoyees.png)  
+ 
 
 ### Modèle relationnel  
 ![Modèle relationnel](Optimisation%20du%20reporting%20Baccarat/images/modele_relationnel.png)  
@@ -42,6 +41,8 @@ un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage,
   ### Étapes de traitement 
  **Power Query**  
 - Nettoyage, homogénéisation et formatage des colonnes
+  #### Données nettoyées  
+![Données nettoyées](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/f549ca6f097c08d514bdde162c7ac3a5cc0a4ffb/Images/Power%20query%20nettoyage.JPG) 
 - Fusion des requêtes multi-mois : les classeurs possèdent 12 feuilles mensuelles
 - Création d’un modèle anticipant les futures années : production d’un fichier Excel optimisé avec des tableaux permettant le calcul automatique des indicateurs,  
   ajout de nouvelles fonctionnalités (mise en forme conditionnelle des week-ends, filtre par semaine),  
