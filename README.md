@@ -22,8 +22,7 @@ un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage,
 
  
 
-### Modèle relationnel  
-![Modèle relationnel](Optimisation%20du%20reporting%20Baccarat/images/modele_relationnel.png)  
+
 
 ### Dashboard final  
 ![Dashboard final](Optimisation%20du%20reporting%20Baccarat/images/dashboard_final.png)  
@@ -44,21 +43,25 @@ un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage,
   #### Données nettoyées  
 ![Données nettoyées](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/f549ca6f097c08d514bdde162c7ac3a5cc0a4ffb/Images/Power%20query%20nettoyage.JPG) 
 - Fusion des requêtes multi-mois : les classeurs possèdent 12 feuilles mensuelles
+  ### Fuision des requêtes multi-mois 
+![Fusion des requêtes multi-mois](Optimisation%20du%20reporting%20Baccarat/images/dashboard_final.png)  
 - Création d’un modèle anticipant les futures années : production d’un fichier Excel optimisé avec des tableaux permettant le calcul automatique des indicateurs,  
   ajout de nouvelles fonctionnalités (mise en forme conditionnelle des week-ends, filtre par semaine),  
-  et anticipation des années à venir jusqu’en 2030  
+  et anticipation des années à venir jusqu’en 2030
+ #### Modèle pour les années futurs
+![Création d'un modèle optimisé pour les future année](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/03991317c3aec3d187def326df32d657871abba1/Images/Capture%20Fichier%20excel%20optimise%CC%81.JPG)   
 - Normalisation des formats (dates, montants, devises)
-- Fusion des requêtes multi-année : après création et transformation des classeurs annuels,je procède à la fusion et consolidation des données via l’option *Créer uniquement la connexion*  
-  pour obtenir une table unique centralisant toutes les ventes, facilitant ainsi les calculs et l’application des mesures DAX
 
-  **Power BI**  
-- Modélisation relationnelle (tables faits/dimensions)  
-- Création d’une table calendrier (Date Table)  :
+  **Power BI**
+  - Fusion des requêtes multi-année : après création et transformation des classeurs annuels,je procède à la fusion et consolidation des données via l’option *Créer uniquement la connexion*  
+  pour obtenir une table unique centralisant toutes les ventes, facilitant ainsi les calculs et l’application des mesures DAX
+- Création d’une table calendrier (Date Table) afin de piloter le filtrage des données de ventes:
   `CALENDRIER =
 ADDCOLUMNS (
     CALENDAR (DATE (2019, 01, 01), DATE (2025, 12, 31)),
     "ANNEE", YEAR ( [Date] ),
     "SEMESTRE", IF (MONTH ( [Date] ) <= 6, "S1", "S2" )`,
+- Modélisation relationnelle (tables faits : données de ventes/dimensions : table date)  
 - Mesures DAX :  
   - `CA = SUM(Donnée_vente[CAHT])`  
   - `CA N-1 = CALCULATE([CA], SAMEPERIODLASTYEAR(Calendar[Date]))` 
