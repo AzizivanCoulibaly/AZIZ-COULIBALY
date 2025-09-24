@@ -19,14 +19,7 @@ Mon portfolio GitHub illustre non seulement mes compétences techniques, mais au
 un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage, l'analyse et la visualisation des indicateurs clés de performances.
 ### Données brutes  
 ![Données brutes](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/5bd970744b8b89af5dc5cf5ed8c22d68de102cf4/Images/Capture%20Donne%CC%81e%20a%CC%80%20nettoyer.JPG)  
-
  
-
-
-
-### Dashboard final  
-![Dashboard final](Optimisation%20du%20reporting%20Baccarat/images/dashboard_final.png)  
-
 
 ### Problème rencontré 
 - Données dispersées sur plusieurs feuille et dans plusieurs dossiers
@@ -43,8 +36,8 @@ un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage,
   #### Données nettoyées  
 ![Données nettoyées](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/f549ca6f097c08d514bdde162c7ac3a5cc0a4ffb/Images/Power%20query%20nettoyage.JPG) 
 - Fusion des requêtes multi-mois : les classeurs possèdent 12 feuilles mensuelles
-  ### Fuision des requêtes multi-mois 
-![Fusion des requêtes multi-mois](Optimisation%20du%20reporting%20Baccarat/images/dashboard_final.png)  
+  ### Fuision des requêtes multi-mois (2024, 2025, 2026, 2027, 2028, 2029, 2030)
+![Fusion des requêtes multi-mois](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/99fd1f30b7feaaf1c4230377adb4a8ad338d57e7/Images/Capture%20fusion%20multi%20mois%202024.JPG)  
 - Création d’un modèle anticipant les futures années : production d’un fichier Excel optimisé avec des tableaux permettant le calcul automatique des indicateurs,  
   ajout de nouvelles fonctionnalités (mise en forme conditionnelle des week-ends, filtre par semaine),  
   et anticipation des années à venir jusqu’en 2030
@@ -53,8 +46,10 @@ un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage,
 - Normalisation des formats (dates, montants, devises)
 
   **Power BI**
-  - Fusion des requêtes multi-année : après création et transformation des classeurs annuels,je procède à la fusion et consolidation des données via l’option *Créer uniquement la connexion*  
-  pour obtenir une table unique centralisant toutes les ventes, facilitant ainsi les calculs et l’application des mesures DAX
+  - Fusion des requêtes multi-année : après création, transformation et fusion multi-mois des classeurs annuels,je procède à la fusion multi-année et consolidation des données
+  pour obtenir une table de faits unique centralisant toutes les ventes passées et futures 2024-2030, facilitant ainsi les calculs et l’application des mesures DAX
+  ### Fusion multi-année 
+![Fusion multi-année](Optimisation%20du%20reporting%20Baccarat/images/dashboard_final.png) 
 - Création d’une table calendrier (Date Table) afin de piloter le filtrage des données de ventes:
   `CALENDRIER =
 ADDCOLUMNS (
@@ -69,17 +64,24 @@ ADDCOLUMNS (
   - `Panier moyen = divide([CA],sum(donnée_vente[ventes]))`
 - Filtres dynamiques (année, mois) synchronisation des filtre, Page1,2,3 
 - Visualisations : histogrammes combiné,  donut chart, Cartes 123, matrice, mise en forme conditionnel
-   
+  ### Dashboard final  
+![Dashboard final](Optimisation%20du%20reporting%20Baccarat/images/dashboard_final.png) 
+
+   ---
+  
 #### Résultats quantitatifs  
 - Réduction du temps de rapport manuel de 1h30 à 20 minutes automatisées (gain de productivité de 78%)
 - Fiabilité des données : 98%
 - Adoption de l’outil par les équipes de ventes / manager au quotidien et lors des rapports mensuels à la hiérarchie
 
+---
 
 #### Résultats qualitatifs   
 - Visualisations intuitives et interactive permettant à des non-techniciens de comprendre les performances en un coup d’œil 
 - Renforcement de la confiance du manager dans les données utilisées au quotidien
 - Suivi clair des écarts année N / N-1 ainsi que des indicateurs N/N-1
+
+---
 
 #### Résultats personnels  
 - Acquisition de compétences clés en **Excel, Power Query avancé, PowerBI, DAX et modélisation relationnelle**  
@@ -88,7 +90,6 @@ ADDCOLUMNS (
 - Démonstration d’une capacité d'adaptation et d’apprentissage rapide 
 - Amélioration de ma rigueur analytique et de ma capacité à transformer les chiffres en recommandations stratégiques
 - Résilience face aux difficultés techniques par la recherche et l'expérimentation
-
 
 
 [Voir un aperçu du dashboard](#docs/screenshot.png)  
