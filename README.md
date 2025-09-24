@@ -43,8 +43,8 @@ un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage,
 - Création d’un modèle anticipant les futures années : production d’un fichier Excel optimisé avec des tableaux permettant le calcul automatique des indicateurs,  
   ajout de nouvelles fonctionnalités (mise en forme conditionnelle des week-ends, filtre par semaine),  
   et anticipation des années à venir jusqu’en 2030
- ##### Modèle pour les années futurs
-![Création d'un modèle optimisé pour les future année](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/85fca4684279ae8a3b4008d542c5ca8c3977ed79/Images/Capture%20Fichier%20excel%20optimise%CC%81.JPG)   
+ ##### Modèle pour les années futures
+![Création d'un modèle optimisé pour les futures années](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/85fca4684279ae8a3b4008d542c5ca8c3977ed79/Images/Capture%20Fichier%20excel%20optimise%CC%81.JPG)   
 
 - Normalisation des formats (dates, montants, devises)
 
@@ -80,7 +80,7 @@ un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage,
   ##### Dashboard final  
  ![Dashboard](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/85fca4684279ae8a3b4008d542c5ca8c3977ed79/Images/Capture%20Dashboard%20P1.JPG)
 ---
-![Dashboard final](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/36295d94e48934320758ba06b3ae60db067ceb8c/Images/Capture%20Dashboard%20Analyse%20comparative.JPG) 
+![Dashboard final](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/85fca4684279ae8a3b4008d542c5ca8c3977ed79/Images/Capture%20Dashboard%20Analyse%20comparative.JPG) 
 ---
 ![Dashboard final](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/85fca4684279ae8a3b4008d542c5ca8c3977ed79/Images/Dashboard%20Analyse%20comparative%202.JPG) 
 
