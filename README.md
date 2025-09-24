@@ -17,7 +17,7 @@ Mon portfolio GitHub illustre non seulement mes compétences techniques, mais au
 
 ## Projets : Optimisation d’un reporting commercial avec Excel, Power Query & Power BI   
 un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage, l'analyse et la visualisation des indicateurs clés de performances.
-### Données brutes  
+##### Données brutes  
 ![Données brutes](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/5bd970744b8b89af5dc5cf5ed8c22d68de102cf4/Images/Capture%20Donne%CC%81e%20a%CC%80%20nettoyer.JPG)  
  
 
@@ -36,7 +36,7 @@ un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage,
   ##### Données nettoyées  
 ![Données nettoyées](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/f549ca6f097c08d514bdde162c7ac3a5cc0a4ffb/Images/Power%20query%20nettoyage.JPG) 
 
-- Fusion des requêtes multi-mois : les classeurs possèdent 12 feuilles mensuelles. Après la fusion, le fichier obtenu est renommé "Données_ventesYYYY" charger en tableau et rangée avec les autres années.
+- Fusion des requêtes multi-mois : les classeurs possèdent 12 feuilles mensuelles. Après la fusion, le fichier obtenu est renommé "Données_ventesYYYY" chargé en tableau et rangé avec les autres années.
   ##### Fuision des requêtes multi-mois (2024, 2025, 2026, 2027, 2028, 2029, 2030)
 ![Fusion des requêtes multi-mois](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/99fd1f30b7feaaf1c4230377adb4a8ad338d57e7/Images/Capture%20fusion%20multi%20mois%202024.JPG)  
 
@@ -49,17 +49,17 @@ un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage,
 - Normalisation des formats (dates, montants, devises)
 
   **Power BI**
-  - Fusion des requêtes multi-année : après création, transformation et fusion multi-mois des classeurs annuels,je procède à la fusion multi-année des fichiers "Donnée_ventesYYYY"
+  - Fusion des requêtes multi-année : après création, transformation et fusion multi-mois des classeurs annuels, je procède à la fusion multi-année des fichiers "Donnée_ventesYYYY"
   pour obtenir une table de faits unique centralisant toutes les ventes passées et futures 2024-2030, facilitant ainsi les calculs et l’application des mesures DAX
   ##### Fusion multi-année 
 ![Fusion multi-année](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/926448afcf6b1af7960da6077ce54d724682ca9a/Images/Capture%20Fusion%20multi%20anne%CC%81e.JPG) 
 
 - Création d’une table calendrier (Date Table) afin de piloter le filtrage des données de ventes:
-  `CALENDRIER =
-ADDCOLUMNS (
-    CALENDAR (DATE (2019, 01, 01), DATE (2025, 12, 31)),
-    "ANNEE", YEAR ( [Date] ),
-    "SEMESTRE", IF (MONTH ( [Date] ) <= 6, "S1", "S2" )`,
+  `Calendar = ADDCOLUMNS(
+    CALENDAR(DATE(2024,01,01),DATE(2030,12,01)),
+"ANNEE",YEAR([Date]),
+"SEMESTRE",IF(MONTH([Date])>=6,"S2","S1"))
+`,
   ##### Table calendrier
   ![Table calendrier](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/934c277b09b2ed91d9f42bf637d1ebb11637d499/Images/Cre%CC%81ation%20table%20date.JPG)
   
