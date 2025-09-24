@@ -17,6 +17,18 @@ Mon portfolio GitHub illustre non seulement mes compétences techniques, mais au
 
 ## Projets : Optimisation d’un reporting commercial avec Excel, Power Query & Power BI   
 un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage, l'analyse et la visualisation des indicateurs clés de performances.
+### Données brutes  
+![Données brutes](Images/Capture_Donnée à nettoyer.JPG)  
+
+### Données nettoyées  
+![Données nettoyées](Optimisation%20du%20reporting%20Baccarat/images/donnees_nettoyees.png)  
+
+### Modèle relationnel  
+![Modèle relationnel](Optimisation%20du%20reporting%20Baccarat/images/modele_relationnel.png)  
+
+### Dashboard final  
+![Dashboard final](Optimisation%20du%20reporting%20Baccarat/images/dashboard_final.png)  
+
 
 ### Problème rencontré 
 - Données dispersées sur plusieurs feuille et dans plusieurs dossiers
