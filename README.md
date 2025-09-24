@@ -79,7 +79,7 @@ un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage,
 - Visualisations : histogrammes combiné,  donut chart, Cartes 123, matrice, mise en forme conditionnel
   ##### Dashboard final  
 ![Dashboard final](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/b06d65daba868a85223704908908beed4d3eb5e0/Images/Capture%20Dashboard%20P1.JPG) 
-![Dashboard final](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/b06d65daba868a85223704908908beed4d3eb5e0/Images/Capture%20Dashboard%20P1.JPG) 
+![Dashboard final](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/36295d94e48934320758ba06b3ae60db067ceb8c/Images/Capture%20Dashboard%20Analyse%20comparative.JPG) 
 ![Dashboard final](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/b06d65daba868a85223704908908beed4d3eb5e0/Images/Capture%20Dashboard%20P1.JPG) 
 
    ---
