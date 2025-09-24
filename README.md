@@ -17,9 +17,6 @@ Mon portfolio GitHub illustre non seulement mes compétences techniques, mais au
 
 ## Projets : Optimisation d’un reporting commercial avec Excel, Power Query & Power BI   
 un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage, l'analyse et la visualisation des indicateurs clés de performances.
-##### Données brutes  
-![Données brutes](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/85fca4684279ae8a3b4008d542c5ca8c3977ed79/Images/Capture%20Donne%CC%81e%20a%CC%80%20nettoyer.JPG)  
- 
 
 ### Problème rencontré 
 - Données dispersées sur plusieurs feuille et dans plusieurs dossiers
@@ -33,56 +30,30 @@ un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage,
   ### Étapes de traitement 
  **Power Query**  
 - Nettoyage, homogénéisation et formatage des colonnes
-  ##### Données nettoyées  
-![Données nettoyées](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/85fca4684279ae8a3b4008d542c5ca8c3977ed79/Images/Power%20query%20nettoyage.JPG) 
-
 - Fusion des requêtes multi-mois : les classeurs possèdent 12 feuilles mensuelles. Après la fusion, le fichier obtenu est renommé "Données_ventesYYYY" chargé en tableau et rangé avec les autres années.
-  ##### Fuision des requêtes multi-mois (2024, 2025, 2026, 2027, 2028, 2029, 2030)
-![Fusion des requêtes multi-mois](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/85fca4684279ae8a3b4008d542c5ca8c3977ed79/Images/Capture%20fusion%20multi%20mois%202024.JPG)  
-
 - Création d’un modèle anticipant les futures années : production d’un fichier Excel optimisé avec des tableaux permettant le calcul automatique des indicateurs,  
   ajout de nouvelles fonctionnalités (mise en forme conditionnelle des week-ends, filtre par semaine),  
-  et anticipation des années à venir jusqu’en 2030
- ##### Modèle pour les années futures
-![Création d'un modèle optimisé pour les futures années](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/85fca4684279ae8a3b4008d542c5ca8c3977ed79/Images/Capture%20Fichier%20excel%20optimise%CC%81.JPG)   
-
+  et anticipation des années à venir jusqu’en 2030 
 - Normalisation des formats (dates, montants, devises)
 
   **Power BI**
   - Fusion des requêtes multi-année : après création, transformation et fusion multi-mois des classeurs annuels, je procède à la fusion multi-année des fichiers "Donnée_ventesYYYY"
   pour obtenir une table de faits unique centralisant toutes les ventes passées et futures 2024-2030, facilitant ainsi les calculs et l’application des mesures DAX
-  ##### Fusion multi-année 
-![Fusion multi-année](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/85fca4684279ae8a3b4008d542c5ca8c3977ed79/Images/Capture%20Fusion%20multi%20anne%CC%81e.JPG) 
-
 - Création d’une table calendrier (Date Table) afin de piloter le filtrage des données de ventes:
   `Calendar = ADDCOLUMNS(
     CALENDAR(DATE(2024,01,01),DATE(2030,12,01)),
 "ANNEE",YEAR([Date]),
 "SEMESTRE",IF(MONTH([Date])>=6,"S2","S1"))
 `,
-  ##### Table calendrier
-  ![Table calendrier](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/85fca4684279ae8a3b4008d542c5ca8c3977ed79/Images/Cre%CC%81ation%20table%20date.JPG)
-  
 - Modélisation des données de mise en relation : Dans notre cas la table de fait est la table regroupant toutes les données de ventes et la table de dimensions est la table date préalablement créé
-   ##### Modèle de donnée
-    ![Modélisation des donnée](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/85fca4684279ae8a3b4008d542c5ca8c3977ed79/Images/Mode%CC%81lisation%20des%20donne%CC%81es.JPG)
-  
 - Mesures DAX :  
   - `CA = SUM(Donnée_vente[CAHT])`  
   - `CA N-1 = CALCULATE([CA], SAMEPERIODLASTYEAR(Calendar[Date]))` 
   - `Ecart = divide([CA] - [CA N-1],[CA N-1])`
   - `Panier moyen = divide([CA],sum(donnée_vente[ventes]))`
-    ##### Mésures Calculées
- ![Mesures calculées](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/85fca4684279ae8a3b4008d542c5ca8c3977ed79/Images/Capture%20mesures%20calcule%CC%81es.JPG) 
- 
+  - `PM N-1 = CALCULATE([Panier moyen], SAMEPERIODLASTYEAR(Calendar[Date]))` 
 - Filtres dynamiques (année, mois) synchronisation des filtre, Page1,2,3 
 - Visualisations : histogrammes combiné,  donut chart, Cartes 123, matrice, mise en forme conditionnel
-  ##### Dashboard final  
- ![Dashboard](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/85fca4684279ae8a3b4008d542c5ca8c3977ed79/Images/Capture%20Dashboard%20P1.JPG)
----
-![Dashboard final](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/85fca4684279ae8a3b4008d542c5ca8c3977ed79/Images/Capture%20Dashboard%20Analyse%20comparative.JPG) 
----
-![Dashboard final](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/85fca4684279ae8a3b4008d542c5ca8c3977ed79/Images/Dashboard%20Analyse%20comparative%202.JPG) 
 
    ---
   
