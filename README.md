@@ -58,12 +58,13 @@ ADDCOLUMNS (
     "SEMESTRE", IF (MONTH ( [Date] ) <= 6, "S1", "S2" )`,
   ![Table calendrier](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/934c277b09b2ed91d9f42bf637d1ebb11637d499/Images/Cre%CC%81ation%20table%20date.JPG) 
 - Modélisation des données de mise en relation : Dans notre cas la table de fait est la table regroupant toutes les données de ventes et la table de dimensions est la table date préalablement crée
-    ![Modélisation des donnée](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/934c277b09b2ed91d9f42bf637d1ebb11637d499/Images/Cre%CC%81ation%20table%20date.JPG) 
+    ![Modélisation des donnée](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/bda5ddf721967d7f1d914379c57477efaae6d2ce/Images/Mode%CC%81lisation%20des%20donne%CC%81es.JPG) 
 - Mesures DAX :  
   - `CA = SUM(Donnée_vente[CAHT])`  
   - `CA N-1 = CALCULATE([CA], SAMEPERIODLASTYEAR(Calendar[Date]))` 
   - `Ecart = divide([CA] - [CA N-1],[CA N-1])`
   - `Panier moyen = divide([CA],sum(donnée_vente[ventes]))`
+ ![Modélisation des donnée](https://github.com/azizivan2000-crypto/AZIZ-COULIBALY/blob/bda5ddf721967d7f1d914379c57477efaae6d2ce/Images/Mode%CC%81lisation%20des%20donne%CC%81es.JPG) 
 - Filtres dynamiques (année, mois) synchronisation des filtre, Page1,2,3 
 - Visualisations : histogrammes combiné,  donut chart, Cartes 123, matrice, mise en forme conditionnel
   ### Dashboard final  
