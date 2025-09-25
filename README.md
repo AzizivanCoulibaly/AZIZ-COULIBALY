@@ -16,7 +16,8 @@ Mon portfolio GitHub illustre non seulement mes compétences techniques, mais au
 ---
 
 ## Projets : Optimisation d’un reporting commercial avec Excel, Power Query & Power BI 
-![Dashboard final](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/56a9563429f18395ca8573eb6bf7661736ee53f5/Optimisation%20du%20reporting%20commercial%20%26%20visualisation%20des%20donn%C3%A9es%20Baccarat/.txt)
+[Voir le descriptif complet du projet Reporting](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/56a9563429f18395ca8573eb6bf7661736ee53f5/Optimisation%20du%20reporting%20commercial%20%26%20visualisation%20des%20donn%C3%A9es%20Baccarat/.txt)
+
  
 un fichier Excel non optimisé, multi-années, non exploitable pour le pilotage, l'analyse et la visualisation des indicateurs clés de performances.
 
