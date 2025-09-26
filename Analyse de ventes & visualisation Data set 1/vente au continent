@@ -39,7 +39,7 @@
 - Évite d’ajouter des colonnes calculées dans la table de faits; une nouvelle colonne implique qu'elle s'étende sur 4 million de ligne
 - Ajout d'une colonne semestre pour affiner les analyses
 ##### Table Calendrier
-![Table Calendrier](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/908027145d5103da72ce0af7f44ab2194cc77d0d/Images/Cre%CC%81ation%20d'une%20table%20date.JPG)
+![Table Calendrier](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/b06678e3036d517e3cb03a2472ae2e39ad90de49/Images/Ajout%20colonne%20semestre.JPG)
 
 **Modélisation relationnelle**  
 - Table centrale : **Ventes 2019-2022**  
