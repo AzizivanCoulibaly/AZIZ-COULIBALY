@@ -31,12 +31,15 @@
 - Les données ( 4M de lignes) sont **chargées uniquement en connexion** puis ** Ajouter au modèle de donnée* pour éviter de saturer Excel  
 - Les tables utilisées dans le modèle :  
   - Table de faits = Ventes consolidées  
-  - Table de dimension = Pays–Continent  
+  - Table de dimension = Pays–Continent 
 
 **Table calendrier (Power Pivot)**  
 - Création d’une table calendrier indépendante pour gérer le temps efficacement  
 - Étendue : 2019 → 2030 (anticipation des années futures)  
 - Évite d’ajouter des colonnes calculées dans la table de faits; une nouvelle colonne implique qu'elle s'étende sur 4 million de ligne
+- Ajout d'une colonne semestre pour affiner les analyses
+##### Table Calendrier
+![Dashboard](https://raw.githubusercontent.com/<TON-USERNAME>/<TON-REPO>/main/images/dashboard.png)
 
 **Modélisation relationnelle**  
 - Table centrale : **Ventes 2019-2022**  
