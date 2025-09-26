@@ -46,7 +46,7 @@
   - Connectée à la **Table Date** (clé = Date)  
   - Connectée à la **Table Pays–Continent** (clé = Pays)  
 ##### Modélisation des données
-![Modélisation des données](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/908027145d5103da72ce0af7f44ab2194cc77d0d/Images/Cre%CC%81ation%20d'une%20table%20date.JPG)
+![Modélisation des données](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/0aea8fe9e45bf766d3d50ea07db427a8012b6225/Images/Mode%CC%80le%20de%20donne%CC%81e.JPG)
 
 **Création de mesures (DAX)**  
 - `CA = SUMX(Ventes, Ventes[Qte] * Ventes[Prix unitaire])`  
