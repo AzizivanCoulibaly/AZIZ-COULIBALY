@@ -22,8 +22,8 @@
 - Transformation de la table pays–continent :  
   - Standardisation des pays (première lettre en majuscule)  
   - Promotion de la première ligne comme en-tête  
-### Nettoyage de donnée 
-![Dashboard final](Optimisation%20du%20reporting%20Baccarat/images/dashboard_final.jpg)
+### Nettoyage des données  
+![Nettoyage des données brutes](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/0e9fac51b889b03a4081e4708b20be59545c222a/Images/Nettoyage%20%26%20transformation%20%26%20combinaison%20des%20fichiers.JPG)
 
 **Chargement dans Power Pivot**  
 - Les données ( 4M de lignes) sont **chargées uniquement en connexion** puis ** Ajouter au modèle de donnée* pour éviter de saturer Excel  
