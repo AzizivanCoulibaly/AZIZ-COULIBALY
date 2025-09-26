@@ -39,12 +39,14 @@
 - Évite d’ajouter des colonnes calculées dans la table de faits; une nouvelle colonne implique qu'elle s'étende sur 4 million de ligne
 - Ajout d'une colonne semestre pour affiner les analyses
 ##### Table Calendrier
-![Table Calendrier](https://raw.githubusercontent.com/<TON-USERNAME>/<TON-REPO>/main/images/dashboard.png)
+![Table Calendrier](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/908027145d5103da72ce0af7f44ab2194cc77d0d/Images/Cre%CC%81ation%20d'une%20table%20date.JPG)
 
 **Modélisation relationnelle**  
 - Table centrale : **Ventes 2019-2022**  
   - Connectée à la **Table Date** (clé = Date)  
   - Connectée à la **Table Pays–Continent** (clé = Pays)  
+##### Modélisation des données
+![Modélisation des données](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/908027145d5103da72ce0af7f44ab2194cc77d0d/Images/Cre%CC%81ation%20d'une%20table%20date.JPG)
 
 **Création de mesures (DAX)**  
 - `CA = SUMX(Ventes, Ventes[Qte] * Ventes[Prix unitaire])`  
