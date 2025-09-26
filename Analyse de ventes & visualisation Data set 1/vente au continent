@@ -32,7 +32,9 @@
 - Les tables utilisées dans le modèle :  
   - Table de faits = Ventes consolidées  
   - Table de dimension = Pays–Continent 
-
+##### Chargement dans Power Pivo
+![Chargement dans Power Pivo](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/a7ddde83e127e2a109102c9e1e76cc18256fb176/Images/Charger%20au%20mode%CC%80le%20de%20donne%CC%81e%20power%20pivot.JPG
+)
 **Table calendrier (Power Pivot)**  
 - Création d’une table calendrier indépendante pour gérer le temps efficacement  
 - Étendue : 2019 → 2030 (anticipation des années futures)  
