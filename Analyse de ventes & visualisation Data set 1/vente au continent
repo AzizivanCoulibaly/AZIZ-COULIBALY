@@ -61,9 +61,11 @@
 - `Part continent = DIVIDE([CA], CALCULATE([CA], ALL(PaysContinent[Continent])))`  
 
 **Analyse (Excel & Power BI)**  
-- Analyse via Tableaux Croisés Dynamiques (Excel)  
-- Visualisations dans Power BI : histogrammes, cartes géographiques, matrices comparatives, donut chart  
+- Analyse via Tableaux Croisés Dynamiques (Excel) et réponse aux problématiques métiers (15 Questions)
+##### Questions et réponses  
+![Nettoyage des données](https://raw.githubusercontent.com/AzizivanCoulibaly/AZIZ-COULIBALY/main/projets/ventes-continents/images/nettoyage.png)
 
+Visualisations dans Power BI : histogrammes, cartes géographiques, matrices comparatives, donut chart  
 ---
 
 ### Résultats quantitatifs  
