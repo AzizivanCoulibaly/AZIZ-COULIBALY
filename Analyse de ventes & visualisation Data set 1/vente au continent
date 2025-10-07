@@ -1,8 +1,8 @@
 ## Projet : Consolidation et analyse de 4 millions de lignes de ventes multi-continents (2019–2022)  
 
 ### Données brutes  
-[📂 Télécharger un extrait des fichiers de ventes](../../data/ventes.txt)  
-[📂 Table Pays-Continent](../../data/pays_continent.txt)  
+[🌐 Télécharger le dataset complet](https://drive.google.com/drive/folders/1wVMY45d3gs_bTIdUYqQ7uSHOWxGzJt9-?usp=share_link)
+
 
 ### Problème rencontré  
 - Données brutes sous forme de fichiers texte dispersés (un fichier par continent : Afrique, Europe, Asie, Amérique)  
