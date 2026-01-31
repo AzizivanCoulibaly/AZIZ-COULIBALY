@@ -70,8 +70,12 @@
 ![Q10,Q11](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/6f7af6fb0a34cf88f00e237b6e5783b538629ec6/Images/WhatsApp%20Image%202025-09-30%20at%2019.06.59.jpeg)
 ![Q12,Q13](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/6f7af6fb0a34cf88f00e237b6e5783b538629ec6/Images/WhatsApp%20Image%202025-09-30%20at%2019.07.00.jpeg)
 ![Q14,Q15](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/6f7af6fb0a34cf88f00e237b6e5783b538629ec6/Images/WhatsApp%20Image%202025-09-30%20at%2019.07.00-2.jpeg)
-Visualisations dans Power BI : histogrammes, cartes géographiques, matrices comparatives, donut chart  
----
+Visualisations dans Power BI : histogrammes, cartes géographiques, matrices comparatives, donut chart 
+Les graphiques Evolution du CA vs CA N-A par mois et Le total CA par articles en pourcentage sont respectivement disjoint des filtres "Mois" et "Articles". 
+En effet, le but est d'avoir une vue d'ensemble sur ces graphiques.
+![Visuel POWERBI](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/856b46c9efcd1c5e13b75f5df7628b4538714799/Images/Vente%20au%20continent.PNG)
+![Visuel POWERBI](https://github.com/AzizivanCoulibaly/AZIZ-COULIBALY/blob/856b46c9efcd1c5e13b75f5df7628b4538714799/Images/Vente%20au%20continent.PNG)
+---) 
 
 ### Résultats quantitatifs  
 - Consolidation de **4 millions de lignes** dans un modèle robuste et exploitable  
