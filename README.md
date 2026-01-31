@@ -19,7 +19,7 @@ Mon portfolio GitHub illustre non seulement mes compétences techniques, mais au
 [Voir le descriptif complet du projet](https://azizivancoulibaly.github.io/Optimisation-des-processus-de-reporting-Visualisation-des-donn-es-Baccarat/)
 
 ## Projet 2 : Analyse des ventes & visualisation data
-[Voir le descriptif complet du projet](https://azizivancoulibaly.github.io/Optimisation-des-processus-de-reporting-Visualisation-des-donn-es-Baccarat/)
+[Voir le descriptif complet du projet](https://azizivancoulibaly.github.io/BI-Data-Visualisation-Analyse-de-ventes-/)
 
 ---
 
