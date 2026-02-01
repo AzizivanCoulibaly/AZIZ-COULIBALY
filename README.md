@@ -18,8 +18,8 @@ Mon portfolio GitHub illustre non seulement mes compétences techniques, mais au
 ## Projet 1 : Optimisation d’un reporting commercial avec Excel, Power Query & Power BI 
 [Voir le descriptif complet du projet](https://azizivancoulibaly.github.io/Optimisation-des-processus-de-reporting-Visualisation-des-donn-es-Baccarat/)
 
-## Projet 2 : Analyse des ventes & visualisation data
-[Voir le descriptif complet du projet](https://azizivancoulibaly.github.io/BI-Data-Visualisation-Analyse-de-ventes-/)
+## Projet 2 : BI & Data Visualisation : Ventes au continent
+[Voir le descriptif complet du projet]( https://azizivancoulibaly.github.io/BI-Data-visualisation-ventes-au-continent/)
 
 ---
 
