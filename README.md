@@ -14,12 +14,15 @@ Ce chemin m’a amené à maîtriser Excel avancé (TOSA), Power Query, Power Pi
 Mon portfolio GitHub illustre non seulement mes compétences techniques, mais aussi ma pédagogie et ma capacité à apprendre vite et appliquer sur des cas concrets.  
 
 ---
+## Projet 1 : Power-BI-Insights-Marketing-Europe-Retail-Baccarat
+[Voir le descriptif complet du projet](https://azizivancoulibaly.github.io/Rapport-Insights-Marketing-Europe-Baccarat/)
 
-## Projet 1 : Optimisation d’un reporting commercial avec Excel, Power Query & Power BI 
+## Projet 2 : Optimisation d’un reporting commercial avec Excel, Power Query & Power BI 
 [Voir le descriptif complet du projet](https://azizivancoulibaly.github.io/Optimisation-des-processus-de-reporting-Visualisation-des-donn-es-Baccarat/)
 
-## Projet 2 : BI & Data Visualisation : Ventes au continent
+## Projet 3 : BI & Data Visualisation : Ventes au continent
 [Voir le descriptif complet du projet]( https://azizivancoulibaly.github.io/BI-Data-visualisation-ventes-au-continent/)
+
 
 ---
 
