@@ -1,0 +1,211 @@
+Categorie,FournisseurID,NomProduit,PrixUnitaire,ProduitID
+Informatique,1,"Ordinateur Portable 15""",1027.57,1
+Informatique,2,"Ordinateur Portable 13""",806.81,2
+Informatique,3,PC Bureau Tour,588.8,3
+Informatique,4,Souris Sans Fil,33.78,4
+Informatique,5,Souris Ergonomique,57.6,5
+Informatique,6,Clavier Mecanique,72.29,6
+Informatique,7,Clavier Sans Fil,41.47,7
+Informatique,8,Ecran 24 pouces,240.84,8
+Informatique,9,Ecran 27 pouces Ultra Wide,399.44,9
+Informatique,10,Disque SSD 1To,126.29,10
+Informatique,1,Disque SSD 512Go,66.16,11
+Informatique,2,Cle USB 64Go,13.5,12
+Informatique,3,Webcam HD,57.76,13
+Informatique,4,Casque Bluetooth,78.11,14
+Informatique,5,Hub USB-C 7 ports,42.55,15
+Informatique,6,Switch Reseau 8 ports,100.18,16
+Informatique,7,Routeur WiFi 6,144.77,17
+Informatique,8,Imprimante Laser,197.58,18
+Informatique,9,Scanner A4,132.22,19
+Informatique,10,Tablette Graphique,200.26,20
+Bureautique,1,Chaise Ergonomique,182.55,21
+Bureautique,2,Bureau Reglable,406.7,22
+Bureautique,3,Bureau Compact,170.43,23
+Bureautique,4,Etagere Bureau,98.27,24
+Bureautique,5,Classeur A4,13.21,25
+Bureautique,6,Ramette Papier A4,7.64,26
+Bureautique,7,Stylos Pack x10,5.98,27
+Bureautique,8,Surligneurs x5,7.14,28
+Bureautique,9,Post-it Pack 200,11.78,29
+Bureautique,10,Agrafeuse Pro,21.93,30
+Bureautique,1,Perforatrice,13.96,31
+Bureautique,2,Calculatrice Scientifique,24.51,32
+Bureautique,3,Lampe de Bureau LED,37.18,33
+Bureautique,4,Corbeille a Papier,13.79,34
+Bureautique,5,Tapis de Souris XL,24.13,35
+Mobilier,6,Table de Reunion 8 pers.,1016.0,36
+Mobilier,7,Canape Bureau 3 places,497.14,37
+Mobilier,8,Armoire Rangement,337.28,38
+Mobilier,9,Tableau Blanc 120x90,116.07,39
+Mobilier,10,Presentoir Lobby,189.33,40
+Informatique,1,"Ordinateur Portable 15"" v2",825.33,41
+Informatique,2,"Ordinateur Portable 13"" v2",847.63,42
+Informatique,3,PC Bureau Tour v2,573.97,43
+Informatique,4,Souris Sans Fil v2,29.36,44
+Informatique,5,Souris Ergonomique v2,47.19,45
+Informatique,6,Clavier Mecanique v2,93.56,46
+Informatique,7,Clavier Sans Fil v2,43.18,47
+Informatique,8,Ecran 24 pouces v2,233.21,48
+Informatique,9,Ecran 27 pouces Ultra Wide v2,450.16,49
+Informatique,10,Disque SSD 1To v2,101.73,50
+Informatique,1,Disque SSD 512Go v2,63.43,51
+Informatique,2,Cle USB 64Go v2,12.61,52
+Informatique,3,Webcam HD v2,56.91,53
+Informatique,4,Casque Bluetooth v2,107.38,54
+Informatique,5,Hub USB-C 7 ports v2,53.19,55
+Informatique,6,Switch Reseau 8 ports v2,85.87,56
+Informatique,7,Routeur WiFi 6 v2,135.3,57
+Informatique,8,Imprimante Laser v2,198.76,58
+Informatique,9,Scanner A4 v2,174.41,59
+Informatique,10,Tablette Graphique v2,186.52,60
+Bureautique,1,Chaise Ergonomique v2,185.34,61
+Bureautique,2,Bureau Reglable v2,361.78,62
+Bureautique,3,Bureau Compact v2,174.67,63
+Bureautique,4,Etagere Bureau v2,83.52,64
+Bureautique,5,Classeur A4 v2,15.65,65
+Bureautique,6,Ramette Papier A4 v2,10.42,66
+Bureautique,7,Stylos Pack x10 v2,5.06,67
+Bureautique,8,Surligneurs x5 v2,6.7,68
+Bureautique,9,Post-it Pack 200 v2,9.37,69
+Bureautique,10,Agrafeuse Pro v2,22.17,70
+Bureautique,1,Perforatrice v2,12.67,71
+Bureautique,2,Calculatrice Scientifique v2,22.89,72
+Bureautique,3,Lampe de Bureau LED v2,40.34,73
+Bureautique,4,Corbeille a Papier v2,19.17,74
+Bureautique,5,Tapis de Souris XL v2,20.76,75
+Mobilier,6,Table de Reunion 8 pers. v2,1069.72,76
+Mobilier,7,Canape Bureau 3 places v2,490.78,77
+Mobilier,8,Armoire Rangement v2,281.42,78
+Mobilier,9,Tableau Blanc 120x90 v2,124.94,79
+Mobilier,10,Presentoir Lobby v3,153.55,80
+Informatique,1,"Ordinateur Portable 15"" v3",943.34,81
+Informatique,2,"Ordinateur Portable 13"" v3",773.36,82
+Informatique,3,PC Bureau Tour v3,655.98,83
+Informatique,4,Souris Sans Fil v3,33.36,84
+Informatique,5,Souris Ergonomique v3,43.8,85
+Informatique,6,Clavier Mecanique v3,69.36,86
+Informatique,7,Clavier Sans Fil v3,47.97,87
+Informatique,8,Ecran 24 pouces v3,214.95,88
+Informatique,9,Ecran 27 pouces Ultra Wide v3,464.71,89
+Informatique,10,Disque SSD 1To v3,93.75,90
+Informatique,1,Disque SSD 512Go v3,83.35,91
+Informatique,2,Cle USB 64Go v3,11.27,92
+Informatique,3,Webcam HD v3,58.45,93
+Informatique,4,Casque Bluetooth v3,83.98,94
+Informatique,5,Hub USB-C 7 ports v3,44.08,95
+Informatique,6,Switch Reseau 8 ports v3,92.45,96
+Informatique,7,Routeur WiFi 6 v3,131.63,97
+Informatique,8,Imprimante Laser v3,235.37,98
+Informatique,9,Scanner A4 v3,140.52,99
+Informatique,10,Tablette Graphique v3,184.94,100
+Bureautique,1,Chaise Ergonomique v3,238.4,101
+Bureautique,2,Bureau Reglable v3,311.57,102
+Bureautique,3,Bureau Compact v3,195.4,103
+Bureautique,4,Etagere Bureau v3,78.09,104
+Bureautique,5,Classeur A4 v3,13.39,105
+Bureautique,6,Ramette Papier A4 v3,9.8,106
+Bureautique,7,Stylos Pack x10 v3,4.3,107
+Bureautique,8,Surligneurs x5 v3,6.32,108
+Bureautique,9,Post-it Pack 200 v3,11.76,109
+Bureautique,10,Agrafeuse Pro v3,18.14,110
+Bureautique,1,Perforatrice v3,13.78,111
+Bureautique,2,Calculatrice Scientifique v3,24.05,112
+Bureautique,3,Lampe de Bureau LED v3,36.38,113
+Bureautique,4,Corbeille a Papier v3,16.72,114
+Bureautique,5,Tapis de Souris XL v3,21.14,115
+Mobilier,6,Table de Reunion 8 pers. v3,1034.1,116
+Mobilier,7,Canape Bureau 3 places v3,471.73,117
+Mobilier,8,Armoire Rangement v3,354.41,118
+Mobilier,9,Tableau Blanc 120x90 v3,139.81,119
+Mobilier,10,Presentoir Lobby v4,183.05,120
+Informatique,1,"Ordinateur Portable 15"" v4",880.47,121
+Informatique,2,"Ordinateur Portable 13"" v4",770.34,122
+Informatique,3,PC Bureau Tour v4,671.25,123
+Informatique,4,Souris Sans Fil v4,32.26,124
+Informatique,5,Souris Ergonomique v4,50.9,125
+Informatique,6,Clavier Mecanique v4,87.22,126
+Informatique,7,Clavier Sans Fil v4,47.79,127
+Informatique,8,Ecran 24 pouces v4,217.03,128
+Informatique,9,Ecran 27 pouces Ultra Wide v4,478.08,129
+Informatique,10,Disque SSD 1To v4,108.01,130
+Informatique,1,Disque SSD 512Go v4,70.59,131
+Informatique,2,Cle USB 64Go v4,12.28,132
+Informatique,3,Webcam HD v4,57.2,133
+Informatique,4,Casque Bluetooth v4,81.29,134
+Informatique,5,Hub USB-C 7 ports v4,48.47,135
+Informatique,6,Switch Reseau 8 ports v4,88.68,136
+Informatique,7,Routeur WiFi 6 v4,136.98,137
+Informatique,8,Imprimante Laser v4,187.57,138
+Informatique,9,Scanner A4 v4,164.28,139
+Informatique,10,Tablette Graphique v4,184.19,140
+Bureautique,1,Chaise Ergonomique v4,189.37,141
+Bureautique,2,Bureau Reglable v4,407.93,142
+Bureautique,3,Bureau Compact v4,195.13,143
+Bureautique,4,Etagere Bureau v4,96.12,144
+Bureautique,5,Classeur A4 v4,16.55,145
+Bureautique,6,Ramette Papier A4 v4,9.38,146
+Bureautique,7,Stylos Pack x10 v4,4.94,147
+Bureautique,8,Surligneurs x5 v4,8.26,148
+Bureautique,9,Post-it Pack 200 v4,9.22,149
+Bureautique,10,Agrafeuse Pro v4,17.09,150
+Bureautique,1,Perforatrice v4,15.27,151
+Bureautique,2,Calculatrice Scientifique v4,21.86,152
+Bureautique,3,Lampe de Bureau LED v4,31.54,153
+Bureautique,4,Corbeille a Papier v4,16.26,154
+Bureautique,5,Tapis de Souris XL v4,21.13,155
+Mobilier,6,Table de Reunion 8 pers. v4,792.33,156
+Mobilier,7,Canape Bureau 3 places v4,648.85,157
+Mobilier,8,Armoire Rangement v4,268.95,158
+Mobilier,9,Tableau Blanc 120x90 v4,119.37,159
+Mobilier,10,Presentoir Lobby v5,160.16,160
+Informatique,1,"Ordinateur Portable 15"" v5",820.26,161
+Informatique,2,"Ordinateur Portable 13"" v5",892.0,162
+Informatique,3,PC Bureau Tour v5,743.88,163
+Informatique,4,Souris Sans Fil v5,27.12,164
+Informatique,5,Souris Ergonomique v5,53.98,165
+Informatique,6,Clavier Mecanique v5,85.78,166
+Informatique,7,Clavier Sans Fil v5,45.76,167
+Informatique,8,Ecran 24 pouces v5,244.26,168
+Informatique,9,Ecran 27 pouces Ultra Wide v5,416.5,169
+Informatique,10,Disque SSD 1To v5,95.72,170
+Informatique,1,Disque SSD 512Go v5,80.44,171
+Informatique,2,Cle USB 64Go v5,12.34,172
+Informatique,3,Webcam HD v5,52.93,173
+Informatique,4,Casque Bluetooth v5,89.79,174
+Informatique,5,Hub USB-C 7 ports v5,53.53,175
+Informatique,6,Switch Reseau 8 ports v5,87.49,176
+Informatique,7,Routeur WiFi 6 v5,120.61,177
+Informatique,8,Imprimante Laser v5,224.5,178
+Informatique,9,Scanner A4 v5,157.44,179
+Informatique,10,Tablette Graphique v5,174.2,180
+Bureautique,1,Chaise Ergonomique v5,210.0,181
+Bureautique,2,Bureau Reglable v5,314.62,182
+Bureautique,3,Bureau Compact v5,215.85,183
+Bureautique,4,Etagere Bureau v5,97.0,184
+Bureautique,5,Classeur A4 v5,13.66,185
+Bureautique,6,Ramette Papier A4 v5,8.17,186
+Bureautique,7,Stylos Pack x10 v5,5.96,187
+Bureautique,8,Surligneurs x5 v5,7.95,188
+Bureautique,9,Post-it Pack 200 v5,10.56,189
+Bureautique,10,Agrafeuse Pro v5,18.73,190
+Bureautique,1,Perforatrice v5,14.23,191
+Bureautique,2,Calculatrice Scientifique v5,26.14,192
+Bureautique,3,Lampe de Bureau LED v5,39.5,193
+Bureautique,4,Corbeille a Papier v5,16.39,194
+Bureautique,5,Tapis de Souris XL v5,21.07,195
+Mobilier,6,Table de Reunion 8 pers. v5,1059.16,196
+Mobilier,7,Canape Bureau 3 places v5,647.95,197
+Mobilier,8,Armoire Rangement v5,306.69,198
+Mobilier,9,Tableau Blanc 120x90 v5,131.04,199
+Mobilier,10,Presentoir Lobby v6,202.38,200
+Informatique,9,Ecran 27 pouces Ultra Wide,399.44,9
+Bureautique,4,Etagere Bureau,98.27,24
+Informatique,3,Webcam HD,57.76,13
+Informatique,7,Routeur WiFi 6,144.77,17
+Bureautique,2,Bureau Reglable,406.7,22
+Bureautique,5,Tapis de Souris XL v2,20.76,201
+Bureautique,5,Classeur A4 v2,15.65,202
+Mobilier,6,Table de Reunion 8 pers.,1016.0,203
+Bureautique,10,Agrafeuse Pro v2,22.17,204
+Bureautique,2,Bureau Reglable v2,361.78,205
