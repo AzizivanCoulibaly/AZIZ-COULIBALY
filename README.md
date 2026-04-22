@@ -1,6 +1,6 @@
 # Aziz Ivan Gerard COULIBALY  
 
-**Data Analyst | Business Analyst | Retail & Luxury Strategy**  
+**Data Analyst | Retail & Luxury Strategy**  
 Allier stratégie, expérience terrain et analyse de données pour transformer les chiffres en leviers de décision.  
 
 ---
@@ -11,8 +11,9 @@ Issu d’un parcours en stratégie d’entreprise (HEC Abidjan) et en marketing 
 La conversion vers la data s’est imposée naturellement a moi : comprendre les clients, piloter la performance et proposer des solutions concrètes nécessitent des outils analytiques puissants.  
 Ce chemin m’a amené à maîtriser Excel avancé (TOSA), Power Query, Power Pivot, DAX, Power BI, ainsi que SQL.  
 
-Mon portfolio GitHub illustre non seulement mes compétences techniques, mais aussi ma pédagogie et ma capacité à apprendre vite et appliquer sur des cas concrets.  
+Mon portfolio GitHub illustre non seulement mes compétences techniques, mais aussi ma pédagogie et ma capacité à apprendre vite et appliquer sur des cas concrets.
 
+[Voir Mon Github](https://github.com/AzizivanCoulibaly) 
 ---
 ## Projet 1 : Suivi ROI Activations Marketing Europe Baccarat
 [Voir le descriptif complet du projet](https://azizivancoulibaly.github.io/Suivi-ROI-Activation-Marketing-Europe-Baccarat/)
