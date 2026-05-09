@@ -1,0 +1,20 @@
+let
+    StartDate = #date(2013, 1, 1),
+    EndDate = Date.EndOfYear(
+                Date.From(
+                    DateTimeZone.SwitchZone(
+                        DateTimeZone.UtcNow(), 1))),
+    NbJours = Duration.TotalDays(EndDate - StartDate) + 1,
+    ListeJours = List.Dates(StartDate, Number.RoundUp(NbJours), #duration(1,0,0,0)),
+    Table = Table.FromList(ListeJours, Splitter.SplitByNothing()),
+    Renommée = Table.RenameColumns(Table, {{"Column1", "Date"}}),
+    TypeDate = Table.TransformColumnTypes(Renommée, {{"Date", type date}}),
+    Année = Table.AddColumn(TypeDate, "Année", each Date.Year([Date])),
+    Mois = Table.AddColumn(Année, "NumMois", each Date.Month([Date])),
+    NomMois = Table.AddColumn(Mois, "NomMois", each Date.ToText([Date], "MMMM", "fr-FR")),
+    Trimestre = Table.AddColumn(NomMois, "Trimestre", each "T" & Text.From(Date.QuarterOfYear([Date]))),
+    Semestre = Table.AddColumn(Trimestre, "Semestre", each if Date.Month([Date]) <= 6 then "S1" else "S2"),
+    Jour = Table.AddColumn(Semestre, "Jour", each Date.Day([Date])),
+    NomJour = Table.AddColumn(Jour, "NomJour", each Date.ToText([Date], "dddd", "fr-FR"))
+in
+    NomJour
