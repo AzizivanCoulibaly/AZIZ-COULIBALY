@@ -1,6 +1,8 @@
 Calcul de la mesure
 Calcul de la mesure N-1
-Calcul Legende YoY
+Calcul du Delta en valeur
+Calcul du Delta en %
+Calcul du Legende YoY
 
 Legende_CA_YoY = 
 VAR DIFF = [DeltaCASelected]
