@@ -1,0 +1,11 @@
+Legend Nbr_Transaction YoY = 
+VAR DIFF = [DeltaSelected Nbr Transaction vs LY]
+VAR EVO = [%Nbr_Transaction_vs_LY]
+
+VAR DIFF_FORMAT = 
+        IF(DIFF >= 0, "+","-") & FORMAT(ABS(DIFF),"#,##0")
+
+VAR EVO_FORMAT = 
+    IF(EVO >= 0, "▲", "▼") & FORMAT(ABS(EVO), "0.0%")
+
+RETURN DIFF_FORMAT & " ( " & EVO_FORMAT & " )"
