@@ -1,3 +1,7 @@
+Calcul de la mesure
+Calcul de la mesure N-1
+Calcul Legende YoY
+
 Legende_CA_YoY = 
 VAR DIFF = [DeltaCASelected]
 VAR EVO = [%CA_vs_LY]
