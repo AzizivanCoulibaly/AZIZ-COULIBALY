@@ -9,3 +9,6 @@ VAR EVO_FORMAT =
     IF(EVO >= 0, "▲", "▼") & FORMAT(ABS(EVO), "0.0%")
 
 RETURN DIFF_FORMAT & " ( " & EVO_FORMAT & " )"
+
+---Effectuer une mise en forme conditionnel sur "Etiquette" > "Valeur"> Legende YoY > "Delta Selected"
+
