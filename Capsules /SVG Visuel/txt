@@ -1,1 +1,17 @@
+Mode d'emploi : 
 
+*/Copier le code TDML dans le TDML Power BI
+*/ Activer dans Fichier> Option et Paramètre > Option > Foncionnalité en prévision > fonction DAX defini par les utilisateurs
+*/ Redemarrer
+*/ Creer la mesure icone : Format Image
+*/ Utiliser un visuel Image
+*/ Mesure : Wallet icone
+Wallet_Icone = imgBadgeEmbeddedAllIcons(
+        "wallet",
+        "#FFFFFF",
+        "#E8D166",
+        80,
+        15,
+        1.5
+)
+Obtenir des iconnes : [Ressources Benjamin Ejzenberg] (https://www.datacoach.ca/ressources/udf-lucide-badge-power-bi)
